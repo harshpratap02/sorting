@@ -1,6 +1,6 @@
-Package sorting;
+package sorting;
 public class BubbleSort {
-	static BubbleSort(int[] arr) {  
+	BubbleSort(int[] arr) {  
         int n = arr.length;  
         int temp = 0;  
          for(int i=0; i < n; i++){  
@@ -31,5 +31,9 @@ public class BubbleSort {
                         System.out.print(arr[i] + " ");  
                 }  
    
-        }  
+        }
+	private static void BubbleSort(int[] arr) {
+		// TODO Auto-generated method stub
+		
+	}  
 }
