@@ -26,7 +26,7 @@ public class NewSort {
                   
                 BubbleSort(arr);
                  
-                System.out.println("Array After Bubble Sort");  
+                System.out.println("Array After Bubble Sort  ee");  
                 for(int i=0; i < arr.length; i++){  
                         System.out.print(arr[i] + " ");  
                 }  
